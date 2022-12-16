@@ -52,6 +52,7 @@ Local Registration API: http://localhost:5000/v1/forgetPassword
 Method: Post
 
 Get warning : 2
+
 message:`forget your password don't worry your password is ${dbUsers.password}`
 
 message : "incorrect email address"
