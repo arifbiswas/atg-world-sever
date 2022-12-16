@@ -1,4 +1,4 @@
-1. Register
+# 1. Register
 Online Registration API: https://atg-world-sever-arifbiswas.vercel.app/v1/register
 Local Registration API: http://localhost:5000/v1/register
 Method: Post
@@ -17,7 +17,7 @@ Need data like this (JSON):
     "password" : "demoPassword"
 }
 
-2. Login
+# 2. Login
 Online Registration API: https://atg-world-sever-arifbiswas.vercel.app/v1/login
 Local Registration API: http://localhost:5000/v1/login
 Method: Post
@@ -36,7 +36,7 @@ Need data like this (JSON):
     "password" : "demoPassword"
 }
 
-3. Forget Password
+# 3. Forget Password
 Online Registration API: https://atg-world-sever-arifbiswas.vercel.app/v1/forgetPassword
 Local Registration API: http://localhost:5000/v1/forgetPassword
 Method: Post
@@ -54,7 +54,7 @@ Need data like this (JSON):
 End Login Part 
 
 CRUD
-4.Create: Add New Post
+# 4.Create: Add New Post
 Online Registration API: https://atg-world-sever-arifbiswas.vercel.app/v1/addPost
 Local Registration API: http://localhost:5000/v1/addPost
 Method: Post
@@ -71,18 +71,18 @@ Need data like this (JSON):
 
 
 
-5. Read: Get all post
+# 5. Read: Get all post
 
 Online Registration API: https://atg-world-sever-arifbiswas.vercel.app/v1/allPost
 Local Registration API: http://localhost:5000/v1/allPost
 Method: Get
 
-6. Delete: Delete post by id
+# 6. Delete: Delete post by id
 Online Registration API: https://atg-world-sever-arifbiswas.vercel.app/v1/delete/:id
 Local Registration API: http://localhost:5000/v1/delete/:id
 Method: Delete
 
-7. Update: Update post by id
+# 7. Update: Update post by id
 Online Registration API: https://atg-world-sever-arifbiswas.vercel.app/v1/updatePost/:id
 Local Registration API: http://localhost:5000/v1/updatePost/:id
 Method: Patch
@@ -93,12 +93,12 @@ Need data like this (JSON):
 }
 
 
-8. Like: Like post by id
+# 8. Like: Like post by id
 Online Registration API: https://atg-world-sever-arifbiswas.vercel.app/v1/like/:id?email=demo@gmail.com
 Local Registration API: http://localhost:5000/v1/like/:id?email=demo@gmail.com
 Method: Post
 
-9. Comment:Add new Comment 
+# 9. Comment:Add new Comment 
 Online Registration API: https://atg-world-sever-arifbiswas.vercel.app/v1/comments
 Local Registration API: http://localhost:5000/v1/comments
 Method: Post
@@ -111,7 +111,7 @@ Need data like this (JSON):
     "comments": "text and comments"
 }
 
-10. Comment: GET All Comment particular posts by id
+# 10. Comment: GET All Comment particular posts by id
 Online Registration API: https://atg-world-sever-arifbiswas.vercel.app/v1/comments/:postId
 Local Registration API: http://localhost:5000/v1/comments/:postId
 Method: GET
