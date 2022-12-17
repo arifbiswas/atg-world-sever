@@ -126,7 +126,7 @@ async function run(){
                 const query = {_id : ObjectId(id)}
                 const result = await PostsCollection.updateOne(query,{$set:{
                     title : req.body.title,
-                    describe : req.body.describe
+                    description : req.body.description
                 }})
                 if(result.modifiedCount > 0){
                     res.send({  message : "Post update successfully"});
